@@ -1,4 +1,4 @@
-"""Textos de la página en español y portugués."""
+
 
 UI = {
     "es": {

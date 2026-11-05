@@ -1,4 +1,4 @@
-"""Tus libros y géneros. Este es el archivo que editás cada vez que leés algo nuevo."""
+
 
 GENRES = {
     "romantasy": {"es": "Romantasy", "pt": "Romantasy"},

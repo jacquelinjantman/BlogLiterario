@@ -1,4 +1,4 @@
-"""Todo el diseño del blog: paletas de noche y día, fuentes y animaciones."""
+
 import base64
 from pathlib import Path
 
@@ -9,13 +9,13 @@ CARPETA = Path(__file__).parent
 
 @st.cache_data
 def imagen_base64(nombre):
-    """Lee una imagen de la carpeta 'portadas' y la deja lista para usar en el CSS."""
+    
     ruta = CARPETA / "portadas" / nombre
     return "data:image/png;base64," + base64.b64encode(ruta.read_bytes()).decode()
 
 
 def particulas(puntos, tam):
-    """Arma puntitos de luz. Cada punto es (x%, y%, color)."""
+   
     return ",".join(
         f"radial-gradient({tam}px {tam}px at {x}% {y}%, {c}, transparent)"
         for x, y, c in puntos
@@ -23,7 +23,7 @@ def particulas(puntos, tam):
 
 
 def castillo_svg(cuerpo, ventanas):
-    """Dibujo del castillo. Cambia de color según el modo."""
+   
     svg = (
         "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 330 200'>"
         f"<g fill='{cuerpo}'><rect x='20' y='100' width='50' height='100'/>"
@@ -41,7 +41,7 @@ def castillo_svg(cuerpo, ventanas):
     return f'url("data:image/svg+xml;utf8,{svg}")'
 
 
-# Paleta de la noche: azul medianoche, luna dorada y luz mágica
+
 NOCHE = {
     "fondo": "radial-gradient(ellipse at 50% 108%, rgba(243,220,154,.5), transparent 55%),"
     "radial-gradient(ellipse at 25% 45%, rgba(29,92,134,.8), transparent 55%),"
@@ -60,7 +60,7 @@ NOCHE = {
     "castillo": castillo_svg("%23060a1c", "%23f0c05a"),
 }
 
-# Paleta del día: bosque verde, luz dorada y luciérnagas
+
 DIA = {
     "fondo": "radial-gradient(ellipse at 15% 0%, #fff7c8, transparent 50%),"
     "radial-gradient(ellipse at 85% 15%, rgba(255,224,140,.6), transparent 45%),"
@@ -83,7 +83,7 @@ FUENTES = "@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500
 
 
 def aplicar_estilo(noche):
-    """Pinta la página con la paleta de la noche o la del día."""
+  
     modo = "noche" if noche else "dia"
     paleta = NOCHE if noche else DIA
     variables = ";".join(f"--{nombre}:{valor}" for nombre, valor in paleta.items())

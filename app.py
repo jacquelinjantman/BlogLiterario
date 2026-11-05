@@ -1,4 +1,4 @@
-"""El blog: arma las páginas usando los libros, los textos y el estilo."""
+
 from os import link
 import re
 
@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 def mostrar_portada(libro):
-    """Muestra la foto del libro, o un marcador si todavía no tiene."""
+   
     if libro["cover"]:
         st.image(libro["cover"])
     else:
@@ -27,7 +27,7 @@ def mostrar_portada(libro):
 
 
 def mostrar_playlist(link, alto=352):
-    """Muestra una playlist de Spotify."""
+   
 
     m = re.search(
         r"(playlist|album|track)/([A-Za-z0-9]+)",
@@ -42,7 +42,7 @@ def mostrar_playlist(link, alto=352):
         else:
             components.iframe(src, height=alto)
 
-# Idioma y modo noche/día (aparecen en las dos páginas)
+
 col_idioma, col_modo = st.columns([3, 2])
 with col_idioma:
     lang = st.radio(
@@ -58,7 +58,7 @@ aplicar_estilo(noche)
 
 st.title(f"{'🌙' if noche else '🌿'} Entre Páginas y Hechizos")
 
-# ¿Hay un libro elegido en el link? Si no, libro_elegido queda en None.
+
 id_elegido = st.query_params.get("libro")
 libro_elegido = next((b for b in BOOKS if b["id"] == id_elegido), None)
 
