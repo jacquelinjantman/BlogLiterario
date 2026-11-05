@@ -6,10 +6,9 @@ GENRES = {
     "romance": {"es": "Romance", "pt": "Romance"},
     "thriller": {"es": "Thriller", "pt": "Suspense"},
 }
-# Playlist general del inicio: pegá el link de Spotify entre las comillas ("" = no se muestra)
+
 PLAYLIST_GENERAL = "https://open.spotify.com/playlist/6bxWTEcz78pzw1xcrRBtRD?si=d99c20575d80457e"
-# Tus libros. "id" es el nombre que aparece en el link (sin espacios ni tildes).
-# "cover" es la portada: una ruta como "portadas/fourth-wing.jpg" o None si todavía no la tenés.
+
 BOOKS = [
     {
         "id": "AssistenteVillano",
@@ -17,7 +16,7 @@ BOOKS = [
         "author": "Hanna Nicole Maehrer",
         "genre": "romantasy",
         "stars": 5,
-        "cover": "..\\portadas\\assistentevillano.jpg",
+        "cover": "portadas/assistentedelvillano.jpg",
         "summary": {
             "es": "Que pasaria si conseguir trabajo con el villano mas temido del reino terminara siendo la mejor decision de tu vida?",
             "pt": "E se conseguir um emprego com o vilão mais temido do reino acabasse sendo a melhor decisão da sua vida?",
@@ -33,7 +32,7 @@ BOOKS = [
         "author": "Lynn Painter",
         "genre": "romantasy",
         "stars": 4.5,
-        "cover": "..\\portadas\\mejorquelaspeliculas.jpg",
+        "cover": "portadas/mejorquelaspeliculas.jpg",
         "summary": {
             "es": "Liz es una chica que siempre soño con vivir una historia de amor como las de sus peliculas romanticas favoritas. Wes, su vecino, es todo lo contrario al chico ideal que Liz imagina. Desde que se conoecn se llevan mal, pero cuan Michael, el antiguo vecino de Liz y Wes vuelve, ella decide pedirle ayudaa Wes para llamar su atencion. Entre planes y bromas, Liz va a descubrir si el amor de verdad se parece a las peliculas que tanto admira o mucho mejor.",
             "pt": "Liz é uma garota que sempre sonhou em viver uma história de amor como as de seus filmes românticos favoritos. Wes, seu vizinho, é o oposto do garoto ideal que Liz imagina. Desde que se conheceram, eles não se dão bem; mas, quando Michael — antigo vizinho de Liz e Wes — retorna, ela decide pedir ajuda a Wes para chamar a atenção dele. Entre planos e brincadeiras, Liz descobrirá se o amor de verdade se parece com os filmes que ela tanto admira, ou se é algo muito melhor.",
@@ -47,7 +46,7 @@ BOOKS = [
         "author": "Elísabet Benavent",
         "genre": "thriller",
         "stars": 4,
-        "cover": "..\\portadas\\esenoesminombre.jpg",
+        "cover": "portadas/esenombrenoeselmio.jpg",
         "summary": {
             "es": "Te imaginas despertar en un lugar desconocido, sin recordar quien sos y sin tener la menor idea de como llegaste ahi?. Lo mas importantes es, Quien dice la verdad? Que pasa cuando ni siquiera podes confiar en tu propia identidad?",
             "pt": "Já imaginou acordar em um lugar desconhecido, sem se lembrar de quem você é e sem ter a menor ideia de como foi parar lá? O mais importante é: quem está dizendo a verdade? O que acontece quando você não consegue nem sequer confiar na sua própria identidade?",
