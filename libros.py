@@ -47,7 +47,7 @@ BOOKS = [
         "author": "Elísabet Benavent",
         "genre": "thriller",
         "stars": 4,
-        "cover": "C:\\Users\\jacqu\\Blog-Book\\portadas\\thatsnotmyname.jpg",
+        "cover": "C:\Users\jacqu\Blog-Book\portadas\esenoesminombre.jpg",
         "summary": {
             "es": "Te imaginas despertar en un lugar desconocido, sin recordar quien sos y sin tener la menor idea de como llegaste ahi?. Lo mas importantes es, Quien dice la verdad? Que pasa cuando ni siquiera podes confiar en tu propia identidad?",
             "pt": "Já imaginou acordar em um lugar desconhecido, sem se lembrar de quem você é e sem ter a menor ideia de como foi parar lá? O mais importante é: quem está dizendo a verdade? O que acontece quando você não consegue nem sequer confiar na sua própria identidade?",
