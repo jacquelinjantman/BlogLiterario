@@ -1,0 +1,248 @@
+/* Estilos comunes. Los colores salen de las paletas de estilos.py (var(--nombre)). */
+.stApp {
+  background: var(--fondo);
+  background-attachment: fixed;
+}
+.stApp::before,
+.stApp::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+.stApp::before {
+  background-image: var(--p1);
+  animation: var(--anim);
+}
+.stApp::after {
+  background-image: var(--p2);
+  animation: var(--anim);
+  animation-duration: 7s;
+  animation-delay: 2s;
+}
+@keyframes brillar {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes flotar {
+  from {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+}
+@keyframes pulso {
+  from {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.07);
+  }
+}
+[data-testid="stHeader"] {
+  background: transparent;
+}
+.block-container,
+[data-testid="stMainBlockContainer"] {
+  .block-container,
+  [data-testid="stMainBlockContainer"] {
+    max-width: 100% !important;
+
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    margin-top: 0;
+    padding: 4rem 5vw 3rem !important;
+  }
+}
+.stApp,
+.stApp p,
+.stApp label,
+.stApp li,
+.stApp [data-testid="stCaptionContainer"] {
+  color: var(--texto) !important;
+  font-family: "Cormorant Garamond", Georgia, serif !important;
+}
+.stApp p {
+  font-size: 1.2rem;
+}
+.stApp h1 {
+  font-family: "Great Vibes", cursive !important;
+  font-weight: 400 !important;
+  font-size: 3.8rem !important;
+  color: var(--acento) !important;
+  text-shadow: 0 0 22px var(--brillo);
+}
+.stApp h2,
+.stApp h3 {
+  font-family: "Cinzel", Georgia, serif !important;
+  color: var(--acento) !important;
+  letter-spacing: 0.04em;
+}
+.stApp button {
+  background: var(--boton) !important;
+  border: 1px solid var(--borde) !important;
+  border-radius: 2rem !important;
+  transition:
+    box-shadow 0.3s,
+    transform 0.3s;
+}
+.stApp button * {
+  color: var(--texto) !important;
+  font-family: "Cinzel", Georgia, serif !important;
+}
+.stApp button:hover {
+  box-shadow: 0 0 18px var(--brillo);
+  transform: translateY(-2px);
+  border-color: var(--acento) !important;
+}
+.stApp [data-testid="stBaseButton-pillsActive"] {
+  background: var(--acento) !important;
+}
+.stApp [data-testid="stBaseButton-pillsActive"] * {
+  color: var(--sobre) !important;
+}
+.stApp [data-testid="stImage"] img {
+  border-radius: 0.5rem 1.5rem;
+  border: 1px solid var(--borde);
+  box-shadow: 0 0 25px var(--brillo);
+}
+.stApp .estrellas,
+.stApp .estrellas * {
+  color: var(--acento) !important;
+  font-size: 2rem;
+  letter-spacing: 0.15em;
+}
+.astro {
+  position: fixed;
+  top: 4.5rem;
+  right: 8vw;
+  width: 4.5rem;
+  height: 4.5rem;
+  pointer-events: none;
+  animation: pulso 5s ease-in-out infinite alternate;
+}
+.astro.noche {
+  border-radius: 50%;
+  box-shadow: inset -1.4rem 0 0 0 #f0c05a;
+  filter: drop-shadow(0 0 12px rgba(240, 192, 90, 0.7));
+}
+.astro.dia {
+  top: -3rem;
+  right: -2rem;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 244, 190, 0.95),
+    rgba(255, 230, 150, 0.35) 45%,
+    transparent 70%
+  );
+}
+.castillo {
+  position: fixed;
+  right: 3vw;
+  bottom: 0;
+  width: 340px;
+  height: 170px;
+  opacity: 0.5;
+  pointer-events: none;
+  background: var(--castillo) no-repeat bottom right / contain;
+}
+.stApp iframe{border-radius:1rem;border:1px solid var(--borde)}
+@keyframes volar {
+  0% {
+    transform: translate(-40vw, 0) rotate(2deg);
+  }
+  15% {
+    transform: translate(0vw, -2vh) rotate(-2deg);
+  }
+  30% {
+    transform: translate(30vw, 3vh) rotate(2deg);
+  }
+  45% {
+    transform: translate(60vw, -2vh) rotate(-2deg);
+  }
+  60%,
+  100% {
+    transform: translate(110vw, 0) rotate(2deg);
+  }
+}
+.dragon {
+  position: fixed;
+  top: 8vh;
+  left: 0;
+  width: min(32vw, 420px);
+  aspect-ratio: 1.922;
+  background: var(--dragon) no-repeat center / contain;
+  filter: var(--dragonfx);
+  pointer-events: none;
+  animation: volar 70s linear infinite;
+}
+@keyframes planear {
+  0% {
+    transform: translate(-40vw, 0);
+  }
+  20% {
+    transform: translate(5vw, -4vh);
+  }
+  40% {
+    transform: translate(35vw, 3vh);
+  }
+  60% {
+    transform: translate(65vw, -4vh);
+  }
+  80%,
+  100% {
+    transform: translate(115vw, 2vh);
+  }
+}
+.hada {
+  position: fixed;
+  top: 48vh;
+  left: 0;
+  width: min(26vw, 340px);
+  aspect-ratio: 1.797;
+  background: var(--hada) no-repeat center / contain;
+  filter: drop-shadow(0 0 10px rgba(255, 214, 110, 0.8));
+  pointer-events: none;
+  animation: planear 55s linear infinite;
+  animation-delay: -12s;
+}
+@media (max-width: 700px) {
+  .stApp h1 {
+    font-size: 2.8rem !important;
+  }
+  .castillo {
+    width: 200px;
+    height: 100px;
+  }
+  .dragon {
+    width: 48vw;
+  }
+  .hada {
+    width: 40vw;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stApp::before,
+  .stApp::after,
+  .astro {
+    animation: none;
+  }
+  .dragon,
+  .hada {
+    display: none;
+  }
+}
+
