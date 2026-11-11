@@ -16,6 +16,7 @@ BOOKS = [
         "author": "Hanna Nicole Maehrer",
         "genre": "romantasy",
         "stars": 5,
+        "spice": 0,
         "cover": "portadas/assistentedelvillano.jpg",
         "summary": {
             "es": "Que pasaria si conseguir trabajo con el villano mas temido del reino terminara siendo la mejor decision de tu vida?",
@@ -32,6 +33,7 @@ BOOKS = [
         "author": "Lynn Painter",
         "genre": "romance",
         "stars": 4,
+        "spice": 0,
         "cover": "portadas/mejorquelaspeliculas.jpg",
         "summary": {
             "es": "Liz es una chica que siempre soño con vivir una historia de amor como las de sus peliculas romanticas favoritas. Wes, su vecino, es todo lo contrario al chico ideal que Liz imagina. Desde que se conoecn se llevan mal, pero cuan Michael, el antiguo vecino de Liz y Wes vuelve, ella decide pedirle ayudaa Wes para llamar su atencion. Entre planes y bromas, Liz va a descubrir si el amor de verdad se parece a las peliculas que tanto admira o mucho mejor.",
@@ -61,6 +63,7 @@ BOOKS = [
            "author": "Caroline Peckam & Susanne Valenti",
            "genre": "fantasy",
            "stars": 5,
+           "spice": 4,
            "cover": "portadas/zodiacacademy.jpg",
            "summary": {
                "es": "Tory y Darcy Vega, dos gemelas huerfanas que crecieron solas y lucharon juntas sobreviviendo en el mundo mortal. Descubren que son faes (hadas) y legitimas herederas del trono de Solaria, un reino gobernado por los 12 signos del zodiaco y los elementos (aire, fuego, agua y tierra). Para reclamar su derecho al trono, deben ingresar a la Zodiac Academy. Sin embargo, su llegada no es bien recibida Los Cuatro Herederos —Darius Acrux, Caleb Altair, Seth Capella y Max Rigel— son los estudiantes más poderosos y crueles de la academia, y gobiernan el lugar con la intención de echar a las gemelas o hacerles la vida imposible para proteger sus propios puestos de poder.",
@@ -75,6 +78,7 @@ BOOKS = [
               "author": "Ali Hazelwood",
               "genre": "romance",
               "stars": 4,
+              "spice": 3,
               "cover": "portadas/juegodedos.jpg",
               "summary": {
                   "es": " A Viola le ofrecen la oportunidad de su vida: diseñar un videojuego basado en su saga de libros favorita. El gran problema es que debe compartir el proyecto con Jesse, un rival del mundo de los videojuegos que siempre ha dejado claro que no la soporta.",
@@ -98,5 +102,19 @@ BOOKS = [
               "review": {"es": "Te atrapa desde el primer momento, su quimica es innegable y la historia es muy entretenida. La tension entre los protagonistas es muy divertida y me encanto la dinamica que tienen. El final me dejo satisfecha y con ganas de leer mas de estos personajes. Apta SOLO para mayores de 18.",
                          "pt": "Prende a atenção desde o primeiro momento; a química entre eles é inegável e a história é muito envolvente. A tensão entre os protagonistas é muito divertida, e adorei a dinâmica que eles têm. O final me deixou satisfeita e com vontade de ler mais sobre esses personagens. Indicado APENAS para maiores de 18 anos."},
           },   
-
+ {
+              "id": "HipotesisDelAmor",
+              "title": "The Love Hypothesis",
+              "author": "Ali Hazelwood",
+              "genre": "romance",
+              "stars": 5,
+              "spice": 4,
+              "cover": "portadas/HipotesisAmoe.jpg",
+              "summary": {
+                  "es": " Olive Smith es una estudiante de doctorado en biología que no cree en las relaciones románticas duraderas, pero su mejor amiga sí. Para convencerla de que ha superado a su ex y está felizmente enamorada, Olive entra en pánico y besa al primer hombre que se cruza en su camino. El problema es que ese hombre resulta ser Adam Carlsen, un joven profesor estrella tan brillante como temido en toda la facultad por su carácter implacable. Contra todo pronóstico, Adam acepta mantener la farsa y fingir que son pareja. Entre experimentos fallidos, cenas incómodas y una tensión grumpy x sunshine irresistible, Olive descubrirá que poner su corazón bajo el microscopio es mucho más complicado que cualquier teoría científica.",
+                  "pt": "Olive Smith é uma estudante de doutorado em biologia que não acredita em relacionamentos românticos duradouros, mas sua melhor amiga acredita. Para convencê-la de que superou seu ex e está felizmente apaixonada, Olive entra em pânico e beija o primeiro homem que cruza seu caminho. O problema é que esse homem acaba sendo Adam Carlsen, um jovem professor estrela tão brilhante quanto temido em toda a faculdade por seu caráter implacável. Contra todas as expectativas, Adam concorda em manter a farsa e fingir que são um casal. Entre experimentos fracassados, jantares desconfortáveis e uma tensão irresistível de grumpy x sunshine, Olive descobrirá que colocar seu coração sob o microscópio é muito mais complicado do que qualquer teoria científica.",
+              },
+              "review": {"es": "Si estás buscando una lectura adictiva que te haga suspirar de principio a fin, este es El libro. Lo que más disfruté de esta novela fue, sin duda, la dinámica entre los protagonistas. Olive me encantó; aunque a veces sentía que sobrepensaba demasiado las cosas, precisamente eso la hace súper real y fácil de querer. Por otro lado, Adam es todo un caballero: increíblemente paciente, atento y protector con ella. Me fascinó ver cómo evoluciona absolutamente toda su historia.La lectura se me hizo sumamente rápida y ligera. Me encantó toda la temática universitaria y científica, ya que le da un toque fresco y diferente al romance tradicional.  ",
+                         "pt": "Se você está procurando uma leitura viciante que te faça suspirar do início ao fim, este é o livro. O que mais gostei desta novela foi, sem dúvida, a dinâmica entre os protagonistas. Olive me encantou; embora às vezes sentisse que estava pensando demais nas coisas, exatamente por isso ela se torna super real e fácil de amar. Por outro lado, Adam é um verdadeiro cavalheiro: increíblemente paciente, atento e protetor com ela. Fiquei fascinada ao ver como evolui absolutamente toda a sua história. A leitura me pareceu extremamente rápida e leve. Adorei toda a temática universitária e científica, já que dá um toque fresco e diferente ao romance tradicional."},
+          },
 ]
