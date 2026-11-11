@@ -83,4 +83,20 @@ BOOKS = [
               "review": {"es": "Este libro consiguio atraparme desde el principio, principalmente porque combina dos temas que me gustan. Asi que tenia bastante curiosidad por descubrir como se desarrollaria la historia. Jesse fue un personaje que al principio me sulto confuso. No terminaba de entender sus actidudes, pero a medida que avanzaba la historia fui comprendiendo mejor los motivos. La quimica entre Viola y Jesse me gusto muchisimo. Disfrute sus interacciones, la tension y esa dinamica entre los protagonistas que hace que quieras seguir leyendo. Ahora, el final ... no me gusto, siento que podria haber tenido una mejor resolucion mucho mejor y que me falto algo mas para quedar satisfecha. Lo recomiendo? si, si te gustan los romances con videojuegos, tension entre protagonists y lecturas rapidas.",
                          "pt": "Este livro conseguiu me prender desde o início, principalmente porque combina dois temas de que gosto. Por isso, fiquei bem curiosa para descobrir como a história se desenrolaria. Jesse foi um personagem que, a princípio, me deixou confusa. Eu não entendia muito bem suas atitudes, mas, conforme a história avançava, fui compreendendo melhor os seus motivos. Gostei muito da química entre Viola e Jesse. Aproveitei as interações deles, a tensão e aquela dinâmica entre os protagonistas que faz com que você queira continuar lendo. Agora, o final... não gostei; sinto que poderia ter tido uma resolução muito melhor e que faltou algo para que eu me sentisse satisfeita. Recomendo? Sim, se você gosta de romances que envolvem videogames, tensão entre os protagonistas e leituras rápidas."},
           },
+{
+              "id": "WildLove",
+              "title": "Wild Love",
+              "author": "Elsie Silver",
+              "genre": "romance",
+              "stars": 5,
+                      "spice": 4,
+              "cover": "portadas/WildLove.jpg",
+              "summary": {
+                  "es": " Ford Grant es un exitoso empresario que regresa al pequeño pueblo de Rose Hill buscando empezar de cero con su nuevo estudio de grabación. Pero sus planes dan un giro radical cuando una sorpresa inesperada lo obliga a replantearse toda su vida y prioridades. Para mantener a flote su negocio en medio de este caos, contrata como gerente a Rosalie Belmont, un torbellino de energía que intenta reconstruir su propia vida. El único problema es que Rosie es la hermana menor de su mejor amigo, y Ford lleva años intentando ignorar la atracción que siente por ella. Con una química innegable y una tensión de grumpy x sunshine, ambos descubrirán que el amor más salvaje es el que llega sin avisar.",
+                  "pt": "Ford Grant é um empresário bem-sucedido que retorna à pequena cidade de Rose Hill, buscando começar do zero com seu novo estúdio de gravação. Mas seus planos dão um giro radical quando uma surpresa inesperada o obriga a repensar toda sua vida e prioridades. Para manter seu negócio em funcionamento no meio deste caos, contrata como gerente Rosalie Belmont, uma tempestade de energia que tenta reconstruir sua própria vida. O único problema é que Rosie é a irmã mais nova de seu melhor amigo, e Ford há anos tenta ignorar a atração que sente por ela. Com uma química inevitável e uma tensão de grumpy x sunshine, ambos descobrirão que o amor mais selvagem é o que chega sem aviso.",
+              },
+              "review": {"es": "Te atrapa desde el primer momento, su quimica es innegable y la historia es muy entretenida. La tension entre los protagonistas es muy divertida y me encanto la dinamica que tienen. El final me dejo satisfecha y con ganas de leer mas de estos personajes. Apta SOLO para mayores de 18.",
+                         "pt": "Prende a atenção desde o primeiro momento; a química entre eles é inegável e a história é muito envolvente. A tensão entre os protagonistas é muito divertida, e adorei a dinâmica que eles têm. O final me deixou satisfeita e com vontade de ler mais sobre esses personagens. Indicado APENAS para maiores de 18 anos."},
+          },   
+
 ]

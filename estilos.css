@@ -246,3 +246,6 @@
   }
 }
 
+.picante{font-size:1.5rem;margin:.2rem 0 0}
+.picante b{font-family:'Cinzel',Georgia,serif;color:var(--acento);font-size:1rem;margin-right:.6rem}
+.picante .off{opacity:.25;filter:grayscale(1)}

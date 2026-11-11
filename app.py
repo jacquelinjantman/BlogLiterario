@@ -76,6 +76,15 @@ if libro_elegido:
         st.caption(f"{libro_elegido['author']} · {GENRES[libro_elegido['genre']][lang]}")
         estrellas = "★" * libro_elegido["stars"] + "☆" * (5 - libro_elegido["stars"])
         st.markdown(f"<div class='estrellas'>{estrellas}</div>", unsafe_allow_html=True)
+        nivel = libro_elegido.get("spice")
+        if nivel is not None:
+            pimientos = "🌶️" * nivel + f"<span class='off'>{'🌶️' * (5 - nivel)}</span>"
+            st.markdown(
+                f"<div class='picante' role='img' aria-label='{t['spice']} {nivel}/5'>"
+                f"<b>{t['spice']}</b> {pimientos}</div>",
+                unsafe_allow_html=True,
+            )
+            st.caption(t["spice_levels"][nivel])
         st.subheader(t["summary"])
         st.write(libro_elegido["summary"][lang])
         st.subheader(t["opinion"])
